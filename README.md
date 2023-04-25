@@ -3,7 +3,7 @@
 
 ## Домашняя работа #1 / terminal/[HW1](https://github.com/ViktorNikolaev88/Terminal/tree/main#readme)  
 
-+ [1. Посмотреть где я](https://github.com/ipohaa/terminal/tree/main/homework1#1-посмотреть-где-я)  
++ [1. Посмотреть где я](https://github.com/ViktorNikolaev88/Terminal/tree/main/homework1#1-посмотреть-где-я)  
 + [2. Создать папку](https://github.com/ipohaa/terminal/tree/main/homework1#2-создать-папку)  
 + [3. Зайти в папку](https://github.com/ipohaa/terminal/tree/main/homework1#3-зайти-в-папку)  
 + [4. Создать 3 папки](https://github.com/ipohaa/terminal/tree/main/homework1#4-создать-3-папки)  
