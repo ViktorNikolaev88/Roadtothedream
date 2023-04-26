@@ -1,71 +1,320 @@
-Домашнее задание на тему Git Bash  
-Ознакомление с terminal и описание выполняемых команд
+Домашнее задание #1 на тему Git Bash  
+Ознакомление с terminal и расширенное описание выполняемых команд
 
-## Домашняя работа #1 / terminal/[HW1](https://github.com/ViktorNikolaev88/Terminal/tree/main/homework1)
-+ [1. Посмотреть где я](https://github.com/ViktorNikolaev88/Terminal/tree/main/homework1#1-посмотреть-где-я)  
-+ [2. Создать папку](https://github.com/ipohaa/terminal/tree/main/homework1#2-создать-папку)  
-+ [3. Зайти в папку](https://github.com/ipohaa/terminal/tree/main/homework1#3-зайти-в-папку)  
-+ [4. Создать 3 папки](https://github.com/ipohaa/terminal/tree/main/homework1#4-создать-3-папки)  
-+ [5. Зайти в любую папку](https://github.com/ipohaa/terminal/tree/main/homework1#5-зайти-в-любую-папку)  
-+ [6. Создать 5 файлов (3 .txt, 2 .json)](https://github.com/ipohaa/terminal/tree/main/homework1#6-создать-5-файлов-3-txt-2-json)  
-+ [7. Создать 3 папки](https://github.com/ipohaa/terminal/tree/main/homework1#7-создать-3-папки)  
-+ [8. Вывести список содержимого папки](https://github.com/ipohaa/terminal/tree/main/homework1#8-вывести-список-содержимого-папки)  
-+ [9-11. Открыть .txt файл, написать туда любой текст, сохранить и выйти](https://github.com/ipohaa/terminal/tree/main/homework1#9-11-открыть-txt-файл-написать-туда-любой-текст-сохранить-и-выйти)  
-            [— Команда cat](https://github.com/ipohaa/terminal/tree/main/homework1#первый-вариант)  
-            [— Редактор vim](https://github.com/ipohaa/terminal/tree/main/homework1#второй-вариант)
-+ [12. Выйти из папки на уровень выше](https://github.com/ipohaa/terminal/tree/main/homework1#12-выйти-из-папки-на-уровень-выше)
-+ [13. Переместить любые 2 файла, которые вы создали, в любую другую папку.](https://github.com/ipohaa/terminal/tree/main/homework1#13-переместить-любые-2-файла-которые-вы-создали-в-любую-другую-папку)
-+ [14. Скопировать любые 2 файла, которые вы создали, в любую другую папку.](https://github.com/ipohaa/terminal/tree/main/homework1#14-скопировать-любые-2-файла-которые-вы-создали-в-любую-другую-папку)
-+ [15. Найти файл по имени](https://github.com/ipohaa/terminal/tree/main/homework1#15-найти-файл-по-имени)
-+ [16. Просмотреть содержимое в реальном времени](https://github.com/ipohaa/terminal/tree/main/homework1#16-просмотреть-содержимое-в-реальном-времени-команда-grep-tail-изучите-как-она-работает)  
-             [— Команда tail](https://github.com/ipohaa/terminal/tree/main/homework1#команда-tail)  
-             [— Команда grep](https://github.com/ipohaa/terminal/tree/main/homework1#команда-grep)
-+ [17. Вывести несколько первых строк из текстового файла](https://github.com/ipohaa/terminal/tree/main/homework1#17-вывести-несколько-первых-строк-из-текстового-файла)
-+ [18. Вывести несколько последних строк из текстового файла](https://github.com/ipohaa/terminal/tree/main/homework1#18-вывести-несколько-последних-строк-из-текстового-файла)
-+ [19. Просмотреть содержимое длинного файла](https://github.com/ipohaa/terminal/tree/main/homework1#19-просмотреть-содержимое-длинного-файла-команда-less-изучите-как-она-работает)
-+ [20. Вывести дату и время](https://github.com/ipohaa/terminal/tree/main/homework1#20-вывести-дату-и-время)  
-+ [21. * Отправить HTTP запрос на сервер.](https://github.com/ipohaa/terminal/tree/main/homework1#21-отправить-http-запрос-на-сервер)
-+ [22. * Написать скрипт который выполнит пункты (3-8, 13) автоматически](https://github.com/ipohaa/terminal/tree/main/homework1#22-написать-скрипт-который-выполнит-автоматически-пункты-3-4-5-6-7-8-13)
+## 1. Посмотреть где я
+Для того чтобы увидеть в каком катоалогке мы накходимся используется команда `pwd`
+```
+$ pwd
+/c/Users/nikol
+```
 
-## Домашняя работа #2 / terminal/[homework2](https://github.com/ipohaa/terminal/tree/main/homework2)  
+## 2. Создать папку
+Создадим каталог **HWterminal1**, для этого используем команду `mkdir имя_каталога`
+```
+nikol@DESKTOP-A1PNQL6 MINGW64 ~
+$ mkdir HWterminal1
+```
+## 3. Зайти в папку
+Чтобы зайти в каталог используем `cd имя_каталога` 
+```
+nikol@DESKTOP-A1PNQL6 MINGW64 ~
+$ cd HWterminal1
+```
 
-+ [1. Создать папку dir_1](https://github.com/ipohaa/terminal/tree/main/homework2#1-сделать-папку-dir_1)
-+ [2. Зайти в папку dir_1](https://github.com/ipohaa/terminal/tree/main/homework2#2-зайти-в-папку-dir_1)
-+ [3. Создать папку inner_dir_1](https://github.com/ipohaa/terminal/tree/main/homework2#3-создать-папку-inner_dir_1)
-+ [4. Посмотреть где ты находишься](https://github.com/ipohaa/terminal/tree/main/homework2#4-посмотреть-где-ты-находишься)
-+ [5. Находясь в папке dir_1 создать пустой текстовый файл tf_1.txt](https://github.com/ipohaa/terminal/tree/main/homework2#5-находясь-в-папке-dir_1-создать-пустой-текстовый-файл-tf_1txt)
-+ [6. Находясь в папке dir_1 через команду cat создать текстовый файл tf_2.txt](https://github.com/ipohaa/terminal/tree/main/homework2#6-находясь-в-папке-dir_1-через-команду-cat-создать-текстовый-файл-tf_2txt)
-+ [7. Зайти в папку inner_dir_1](https://github.com/ipohaa/terminal/tree/main/homework2#7-зайти-в-папку-inner_dir_1)
-+ [8. Через cat сделать текстовый файл tf_3.txt c любыми строками](https://github.com/ipohaa/terminal/tree/main/homework2#8-через-cat-сделать-текстовый-файл-tf_3txt--c-любыми-строками)  
-+ [9. Через cat добавить в текстовый файл tf_3.txt строку "the second 2"](https://github.com/ipohaa/terminal/tree/main/homework2#9-через-cat-добавить-в-текстовый-файл-tf_3txt-строку-the-second-2)  
-+ [10. Через cat добавить в текстовый файл tf_3.txt строку "the sec 2"](https://github.com/ipohaa/terminal/tree/main/homework2#10-через-cat-добавить-в-текстовый-файл-tf_3txt-строку-the-sec-2)  
-+ [11. Через cat добавить в текстовый файл tf_2.txt строку "the sec 3"](https://github.com/ipohaa/terminal/tree/main/homework2#11-через-cat-добавить-в-текстовый-файл-tf_2txt-строку-the-sec-3)  
-+ [12. Через cat добавить в текстовый файл tf_3.txt строку "the SeCoNd 2"](https://github.com/ipohaa/terminal/tree/main/homework2#12-через-cat-добавить-в-текстовый-файл-tf_3txt-строку-the-second-2)  
-+ [13. Через cat добавить в текстовый файл tf_2.txt строку "the seConD 2"](https://github.com/ipohaa/terminal/tree/main/homework2#13-через-cat-добавить-в-текстовый-файл-tf_2txt-строку-the-second-2)
-+ [14. Создать текстовый файл tf_4.txt в котором будет 15 строк.](https://github.com/ipohaa/terminal/tree/main/homework2#14-создать-текстовый-файл-tf_4txt-в-котором-будет-15-строк)
-+ [15. Создать текстовый файл tF_5.txt в котором будет 13 строк.](https://github.com/ipohaa/terminal/tree/main/homework2#15-создать-текстовый-файл-tf_5txt-в-котором-будет-13-строк)
-+ [16. Вывести список всех файлов в папке.](https://github.com/ipohaa/terminal/tree/main/homework2#16-вывести-список-всех-файлов-в-папке)
-+ [17. Выйти из папки inner_dir_1](https://github.com/ipohaa/terminal/tree/main/homework2#17-выйти-из-папки-inner_dir_1)
-+ [18. Вывести содержимое файла tf_3.txt в терминал.](https://github.com/ipohaa/terminal/tree/main/homework2#18-вывести-содержимое-файла-tf_3txt-в-терминал)
-+ [19. Найти путь к файлу tf_4.txt](https://github.com/ipohaa/terminal/tree/main/homework2#19-найти-путь-к-файлу-tf_4txt)
-+ [20. Очистить файл tf_4.txt от содержимого без удаления самого файла.](https://github.com/ipohaa/terminal/tree/main/homework2#20-очистить-файл-tf_4txt-от-содержимого-без-удаления-самого-файла)
-+ [21. Найти путь к файлам у которых есть  "tf" в названии.](https://github.com/ipohaa/terminal/tree/main/homework2#21-найти-путь-к-файлам-у-которых-есть-tf-в-названии)
-+ [22. Найти путь к файлам у которых есть  "tf" в названии и буквы в любом регистре.](https://github.com/ipohaa/terminal/tree/main/homework2#22-найти-путь-к-файлам-у-которых-есть-tf-в-названии-и-буквы-в-любом-регистре)
-+ [23. Найти строки в файлах где есть комбинация букв "sec" в текущей папке](https://github.com/ipohaa/terminal/tree/main/homework2#23-найти-строки-в-файлах-где-есть-комбинация-букв-sec-в-текущей-папке)
-+ [24. Найти строки в файлах где есть комбинация букв "sec" в любом регистре в текущей папке](https://github.com/ipohaa/terminal/tree/main/homework2#24-найти-строки-в-файлах-где-есть-комбинация-букв-sec-в-любом-регистре-в-текущей-папке)
-+ [25. Найти строки в файлах где есть только комбинация букв "sec" в текущей папке](https://github.com/ipohaa/terminal/tree/main/homework2#25-найти-строки-в-файлах-где-есть-только-комбинация-букв-sec-в-текущей-папке)
-+ [26. Найти строки в файлах где есть только комбинация букв "sec" в любом регистре в текущей папке](https://github.com/ipohaa/terminal/tree/main/homework2#26-найти-строки-в-файлах-где-есть-только-комбинация-букв-sec-в-любом-регистре-в-текущей-папке)
-+ [27. Найти строки в файлах где есть комбинация букв "second" в текущей папке](https://github.com/ipohaa/terminal/tree/main/homework2#27-найти-строки-в-файлах-где-есть-комбинация-букв-second-в-текущей-папке)
-+ [28. Найти строки в файлах где есть комбинация букв "second" в любом регистре в текущей папке](https://github.com/ipohaa/terminal/tree/main/homework2#28-найти-строки-в-файлах-где-есть-комбинация-букв-second-в-любом-регистре-в-текущей-папке)
-+ [29. Найти строки в файлах где есть комбинация букв "second" во всех папках ниже уровнем](https://github.com/ipohaa/terminal/tree/main/homework2#29-найти-строки-в-файлах-где-есть-комбинация-букв-second-во-всех-папках-ниже-уровнем)
-+ [30. Найти только путь и название файла в строках которых есть комбинация букв "second" в текущей папке](https://github.com/ipohaa/terminal/tree/main/homework2#30-найти-только-путь-и-название-файла-в-строках-которых-есть-комбинация-букв-second-в-текущей-папке)
-+ [31. Найти все строки во всех файлах где нет комбинации "second"](https://github.com/ipohaa/terminal/tree/main/homework2#31-найти-все-строки-во-всех-файлах-где-нет-комбинации-second)
-+ [32. Найти только название и путь к файлам где нет комбинации "second"](https://github.com/ipohaa/terminal/tree/main/homework2#32-найти-только-название-и-путь-к-файлам-где-нет-комбинации-second)
-+ [33. Вывести в терминал 4 последних строк любого текстового файла](https://github.com/ipohaa/terminal/tree/main/homework2#33-вывести-в-терминал-4-последних-строк-любого-текстового-файла)
-+ [34. Вывести в терминал 4 первые строки любого текстового файла.](https://github.com/ipohaa/terminal/tree/main/homework2#34-вывести-в-терминал-4-первые-строки-любого-текстового-файла)
-+ [35. Команда в одну строку. Создать папку и создать текстовый файл с содержиммым.](https://github.com/ipohaa/terminal/tree/main/homework2#35-команда-в-одну-строку-создать-папку-и-создать-текстовый-файл-с-содержиммым)
-+ [36. Команда в одну строку. Переместить в любую одну папку текстовые файлы у которых в содержимом есть слово "sec"](https://github.com/ipohaa/terminal/tree/main/homework2#36-команда-в-одну-строку-переместить-в-любую-одну-папку-текстовые-файлы-у-которых-в-содержимом-есть-слово-sec)
-+ [37. Команда в одну строку. Скопировать в любую одну папку текстовые файлы у которых в содержимом есть слово "sec"](https://github.com/ipohaa/terminal/tree/main/homework2#37-команда-в-одну-строку-скопировать-в-любую-одну-папку-текстовые-файлы-у-которых-в-содержимом-есть-слово-sec)
-+ [38. Команда в одну строку. Найти все строки c "sec" во всех текстовых файлах, скопировать и вставить эти строки в один новый созданный текстовый файл.](https://github.com/ipohaa/terminal/tree/main/homework2#38-команда-в-одну-строку-найти-все-строки-c-sec-во-всех-текстовых-файлах-скопировать-и-вставить-эти-строки-в-один-новый-созданный-текстовый-файл)
-+ [39. Команда в одну строку. Удалить текстовые файлы у которых в содержимом есть слово "sec"](https://github.com/ipohaa/terminal/tree/main/homework2#39-команда-в-одну-строку-удалить-текстовые-файлы-у-которых-в-содержимом-есть-слово-sec)
-+ [40. Просто вывести в терминал строку "Good job!!"](https://github.com/ipohaa/terminal/tree/main/homework2#40-просто-вывести-в-терминал-строку-good-job)
+## 4. Создать 3 папки
+Создадим три каталога c с помощью команды `mkdir`. Для создания нескольких каталогов название разделим пробелом.
+```
+$ mkdir folder1 folder2 folder3
+```
+
+## 5. Зайти в любую папку
+Перейти в каталог **folder1**
+```
+nikol@DESKTOP-A1PNQL6 MINGW64 ~/HWterminal1
+$ cd folder1
+```
+## 6. Создать 5 файлов (3 .txt, 2 .json)
+Для того чтобы создать пустой файл используется команду `touch`
+```
+$ touch имя_файла.расширение
+```
+Для создания сразу несколько файлов, воспользуемся пробелами между файлами.
+```
+nikol@DESKTOP-A1PNQL6 MINGW64 ~/HWterminal1/folder1
+$ touch one.txt two.txt three.txt jone.json jtwo.json
+```
+## 7. Создать 3 папки
+Создаём 3 подкаталога с именами в каталоге **folder1**
+```
+nikol@DESKTOP-A1PNQL6 MINGW64 ~/HWterminal1
+$  mkdir folder1 folder2 folder3
+```
+## 8. Вывести список содержимого папки
+`ls` команда для того чтобы вывести содержимое текущего каталога
++ `ls -la` — отображает расширенную информацию о файлах и папках.
+```
+nikol@DESKTOP-A1PNQL6 MINGW64 ~/HWterminal1/folder1
+$ ls
+directory1/  directory3/  jtwo.json  three.txt
+directory2/  jone.json    one.txt    two.txt
+```
+
+## 9-11. Открыть .txt файл, написать туда любой текст, сохранить и выйти
+Для того чтобы открыть и начать редактировать файл можно воспользоваться командой `cat >`   
+
+```
+nikol@DESKTOP-A1PNQL6 MINGW64 ~/HWterminal1/folder1
+$ cat > one.txt
+```
+После этого мы можем редактировать файл и добавлять в него любой текст.  
+
+```
+one
+two
+three
+four
+five
+six
+seven
+
+```
+Для того чтобы сохранить и выйти из редактирования используем сочетание клавиш `Ctrl` + `D`
+
+### Второй вариант
+Для этого используется редактор `vim`
+```
+Ipohaa@MainPC MINGW64 /f/git/terminal/homework1/folder1 (main)
+$ vi text2.txt
+```
+Для того чтобы начать редактировать нужно нажать `Insert`  
+
+```
+red
+orange
+yelow
+green
+blue
+indigo
+violet
+```
+Чтобы сохранить нужно нажать `Esc` и ввести команду `:wq`
+## 12. Выйти из папки на уровень выше
+Команды для навигации `cd`:
++ `cd  ` — без параметров перемещает в домашнюю директорию пользователя,
++ `cd .` — текущая директория,
++ `cd ..` — родительская директория,
++ `cd ~`  — домашняя директория пользователя.
+
+Перейти на уорвень выше `cd ..`
+```
+nikol@DESKTOP-A1PNQL6 MINGW64 ~/HWterminal1/folder1
+$ cd ..
+```
+## 13. Переместить любые 2 файла, которые вы создали, в любую другую папку.
+Для перемещения файлов используют команду `mv`:
+```
+$ mv файл(-ы) путь
+```
+Переместим файлы **one.txt** и **two.txt** из каталога **folder1** в **folder2**
+```
+nikol@DESKTOP-A1PNQL6 MINGW64 ~/HWterminal1
+$ mv folder1/{one.txt,two.txt} folder2
+```
+
+## 14. Скопировать любые 2 файла, которые вы создали, в любую другую папку.
+Для копирования файлов используют команду `cp`, синтаксис :
+```
+$ cp файл(-ы) путь
+```
+Скопируем  ту же файлы **one.txt** и **two.txt** из каталога **folder2** в **folder3**
+```
+nikol@DESKTOP-A1PNQL6 MINGW64 ~/HWterminal1
+$ cp folder2/one.txt folder2/two.txt folder3
+```
+## 15. Найти файл по имени
+Для поиска используется команда `find`, синтаксис :
+```
+find место_поиска ключ-свойство значение_свойства
+```
++ `find -name "шаблон"` — находит файлы с именами, соответствующими шаблону,
++ `find –print` — выводит имена найденных файлов,
++ `find –exec команда {} \; ` — выполняет указанную команду, передав ей имя найденного файла.
+
+Найдём для примера путь до файла **one.txt** используя маску "one*"
+```
+nikol@DESKTOP-A1PNQL6 MINGW64 ~/HWterminal1
+$ find -name "one*"
+./folder2/one.txt
+./folder3/one.txt
+
+
+```
+## 16. Просмотреть содержимое в реальном времени (команда `grep`) изучите как она работает.
+### Команда `tail`
+Часто для просмотра файла, когда не обязательно видеть всё содержимое, например для логов, используется команда `tail`, которая позволяет посмотреть что находится в части файла. С ней так же можно совместно использовать `grep`
+```
+$ tail | grep ""
+```
++ `tail -n 5` — выведет последние 5 строк,
++ `tail -f` — будет выводить строки в реальном времени, по мере обновления файла,
+ 
+
+Чтобы отследить обновления в файле используем команду `tail -f`
+```
+nikol@DESKTOP-A1PNQL6 MINGW64 ~/HWterminal1
+$ tail -f ./folder3/one.txt
+```
+```
+one
+two
+three
+four
+five
+six
+seven
+
+```
+ Добавим новые строки с помощью текстовго редактора в файл **one.txt** и сохраним результат `Ctrl`+`S` 
+```
+red
+green
+blue
+``` 
+Информация в терминале обновится:
+```
+nikol@DESKTOP-A1PNQL6 MINGW64 ~/HWterminal1
+$ tail -f ./folder3/one.txt
+one
+two
+three
+four
+five
+six
+seven
+red
+green
+```
+
+Для выхода  `Ctrl`+`C`
+
+---
+### Команда `grep` 
+Команда позволяющая выполнять поиск внутри содержимого файла по различным параметрам Команда grep имеет огромное количество опций и вариантов использования.
+```
+grep — команда
+[опции] — модификаторы команды
+значение — поисковый запрос
+[ФАЙЛ] — файл, в котором вы выполняете поиск
+```
+
+Можно просмотреть документацию и пояснения к различным опциям команды, введя в командной строке:
+```
+grep –help
+```
+наиболее важными и часто используемыми являются параметры:
+```
+-i — поиск не будет чувствителен к регистру. То есть, если вы хотите найти слово «автомобиль», написанные как «АВТОМОБИЛЬ» слова тоже будут найдены.
+-c — покажет только количество строк, содержащих поисковый запрос
+-r — включает рекурсивный поиск в текущем каталоге
+-n — выведет номера строк, содержащих поисковый запрос
+-v — обратный поиск, выводит только строки, в которых нет указанного поискового запроса
+```
+
+
+## 17. Вывести несколько первых строк из текстового файла
+Для вывода первых строк используется команда `head`, синтаксис :
+```
+$ head опции файл
+```
++ `head -n 5` — выведет первые 5 строк,
++ `head -c 250` — выведет указанное количество байт от начала файла.
+
+Выведем первые 5 строк из файла **three.txt**
+**
+```
+nikol@DESKTOP-A1PNQL6 MINGW64 ~/HWterminal1/folder1
+$ head -n 5 three.txt
+
+```
+В результате получим строки.
+```
+У лукоморья дуб зелёный;
+Златая цепь на дубе том:
+И днём и ночью кот учёный
+Всё ходит по цепи кругом;
+Идёт направо — песнь заводит,
+```
+
+## 18. Вывести несколько последних строк из текстового файла
+Для вывода последних строк используется команда `tail`, синтаксис :
+```
+$ tail опции файл
+```
++ `tail -n 3` — выведет последние 3 строк,
++ `tail -f` — будет выводить строки в реальном времени, по мере обновления файла,
++ `tail -c 50` — выведет указанное количество байт с конца файла. 
+
+Выведем последние 20 байт из файла **three.txt**
+```
+nikol@DESKTOP-A1PNQL6 MINGW64 ~/HWterminal1/folder1
+$ tail -n 3 three.txt
+```
+В результате получим
+```
+Следы невиданных зверей;
+Избушка там на курьих ножках
+Стоит без окон, без дверей;
+```
+
+## 19. Просмотреть содержимое длинного файла (команда `less`) изучите как она работает.
+Используем `less` для чтения содержимого длинного файла
+```
+$ less опции файл
+```
++ `less -s` — заменит несколько идущих подряд пустых строк одной строкой,
++ `less -n` — не выводить номера строк,
++ `less -N` — вывести номера строк,
++ `less -i` — игнорировать регистр,
++ `less +f` — просматривать добавление строк в реальном времени,
+
+
+## 20. Вывести дату и время  
+Для вывода времени используем `date`
+```
+nikol@DESKTOP-A1PNQL6 MINGW64 ~/HWterminal_1
+$ date
+```
+```
+Wed Apr 26 22:18:54     2023
+```
+=========
+
+## *21. Отправить HTTP запрос на сервер.
+Для того чтобы отправить запрос воспользуемся командой `curl` и методом `-X GET`
+```
+nikol@DESKTOP-A1PNQL6 MINGW64 ~/HWterminal1/folder1
+$ curl -X GET http://162.55.220.72:5005/terminal-hw-request
+```
+Результатом выполнения запроса является ответ от сервера
+```
+    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   232  100   232    0     0   1395      0 --:--:-- --:--:-- --:--:--  1397<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+```
+## *22. Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+```
+$ #!/bin/bash
+cd HWterminal_1
+mkdir folder1 folder2 folder3
+cd folder1
+touch one.txt two.txt three.txt jone.json jtwo.json
+mkdir directory1 directory2 directory3
+ls
+cd ..
+mv folder1/{one.txt,two.txt} folder2
+directory1/  directory2/  directory3/  jone.json  jtwo.json  one.txt  three.txt  two.txt
+
+```
