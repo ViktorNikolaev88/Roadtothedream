@@ -1,0 +1,45 @@
+Linux terminal (GitBash) commands
+
+1) Посмотреть где я - pwd
+2) Создать папку - mkdir HWterminal1
+3) Зайти в папку - cd HWterminal1
+4) Создать 3 папки - mkdir folder1 folder2 folder3
+5) Зайти в любоую папку - cd folder1
+6) Создать 5 файлов (3 txt, 2 json) - touch one.txt two.txt three.txt jone.json jtwo.json
+7) Создать 3 папки - mkdir folder1 folder2 folder3
+8. Вывести список содержимого папки - ls
+9) + Открыть любой txt файл cat > one.txt
+10) + написать туда что-нибудь, любой текст. - 
+one
+two
+three
+four
+five
+six
+seven
+11) + сохранить и выйти. - Ctrl + D
+12) Выйти из папки на уровень выше - cd ..
+—
+13) переместить любые 2 файла, которые вы создали, в любую другую папку. -mv folder1/{one.txt,two.txt} folder2
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку. cp folder2/one.txt folder2/two.txt folder3
+15) Найти файл по имени - find -name "one*"
+16) Просмотреть содержимое в реальном времени (команда grep) изучите как она работает. tail -f ./folder3/one.txt. Добавим новые строки с помощью текстовго редактора в файл one.txt и сохраним результат Ctrl+S. Информация в терминале обновится. Для выхода нажать Ctrl+C.
+17) вывести несколько первых строк из текстового файла - head -n 5 three.txt
+18) вывести несколько последних строк из текстового файла - tail -n 3 three.txt
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает. - less [параметры] имя-текстового-файла. Утилита поддерживает большое количество параметров, причем практически все из этих параметров являются узкоспециализированным и едва ли пригодятся большинству пользователей, а самыми востребованными из них являются параметр -N, позволяющий выводить номера строк, что очень удобно при чтении программного кода.
+20) вывести дату и время - date
+=========
+
+Задание *
+1) Отправить http запрос на сервер.
+http://162.55.220.72:5005/terminal-hw-request - curl -X GET http://162.55.220.72:5005/terminal-hw-request
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13 - $ #!/bin/bash
+cd HWterminal_1
+mkdir folder1 folder2 folder3
+cd folder1
+touch one.txt two.txt three.txt jone.json jtwo.json
+mkdir directory1 directory2 directory3
+ls
+cd ..
+mv folder1/{one.txt,two.txt} folder2
+directory1/  directory2/  directory3/  jone.json  jtwo.json  one.txt  three.txt  two.txt 
